@@ -42,7 +42,7 @@ const CandidateSearch = () => {
     <div>
       <h1>Candidate Information</h1>
       {candidate ? (
-        <div>
+        <div className="card">
             <div className="avatar-image">
               {candidate.avatar_url ? (
                 <img 
@@ -52,10 +52,9 @@ const CandidateSearch = () => {
                 <p>No avatar available</p>
               )}
             </div>
-          <h2>
-          <h2>
-            {candidate.login || 'No Login Name Provided'} <span>({candidate.name ? candidate.name : <em>Full name not provided</em>})</span></h2>
-          </h2>
+          <h3>
+            {candidate.login || 'No Login Name Provided'} <br></br> ({candidate.name ? candidate.name : <em>Full name not provided</em>})
+          </h3>
           <p>
             <strong>Location:</strong> {candidate.location || 'Not Specified'}
           </p>
