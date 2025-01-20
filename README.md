@@ -7,8 +7,8 @@ This React application using the GitHub API will find random users on GitHub and
 ## Installation
 
 - Clone the repository
-- Add your [GitHub Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token) to an .env file in the root with the variable "VITE_GITHUB_TOKEN="
-- Use npm run dev to start the application
+- Add your [GitHub Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token) to an .env file in the root with the variable ``VITE_GITHUB_TOKEN=``
+- Use ``npm run dev`` to start the application
 
 ## Usage
 
