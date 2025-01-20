@@ -1,4 +1,4 @@
-# Github Candidate Search
+# GitHub Candidate Search
 
 ## Description
 
