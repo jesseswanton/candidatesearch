@@ -4,6 +4,8 @@
 
 This React application using the GitHub API will find random users on GitHub and display information about them so that you can add them to a list of potential candidates.
 
+[Deployed application](https://candidatesearch-69k4.onrender.com/)
+
 ## Installation
 
 - Clone the repository
